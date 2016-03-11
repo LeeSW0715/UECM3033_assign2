@@ -17,7 +17,8 @@ Coding with "np.count_nonzero(A) > 1/2*len(A)" at line 37 is used to when a matr
 
 Explain how you implement your `task1.py` here.
 
-Two different size of Matrix A is given, this two matrix will undergo any one of the decompostion 
+Two different size of Matrix A is given, this two matrix will undergo any one of the decompostion.
+
 LU decomposition: Matrix A will seperated into two different matrix called L(Lower trianglar matrix) and U(Upper trianglar matrix), with formula A = LU.
 
 SOR decomposition: initially with the coding "ITERATION LIMIT = 10 " at line 2, is used to control the number of iteration. Next let the value of omega = 1.05 at line 26, to let the matirx A be convergent, postive definite and symmetric. Then when starts the iteration, the first element in newA is zero vector, when every new newA will release until 10 times of iteration.
